@@ -6,7 +6,7 @@ export default function Page() {
     <section>
       <a href={socialLinks.twitter} target="_blank">
         <Image
-          src="/profile.png"
+          src="/profile.jpeg"
           alt="Profile photo"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
@@ -15,50 +15,49 @@ export default function Page() {
           priority
         />
       </a>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio template!
-      </h1>
       <div className="prose prose-neutral dark:prose-invert">
-        <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
-        </p>
-        <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
-        </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
+        <div className="">
+          <h1 className="text-3xl font-bold ">Hey, I'm Saurabh Shukla</h1>
+          <p className="">
+            Currently working at <span className="font-semibold">GrooveHQ</span>{" "}
+            as a Software Developer. But let's rewind a bit... ⏪
+          </p>
+          <p className="">
+            School? Average. Then came grades 10, 11, and 12, where I leveled up
+            because, well, my batchmates were{" "}
+            <span className="italic">loserssss</span>. 😆 Decided to become an{" "}
+            <span className="font-semibold">IIIIT legend</span>, went for
+            coaching, realized in four months—nope, not happening. Crashed and
+            burned in JEE Mains with a glorious 64%ile. 🚀💥 Told my parents,
+            "I'm coming home!" And then... boom, COVID.
+          </p>
+          <p className="">
+            Took admission in the cheapest government college with a CS
+            degree—because, let's be real,{" "}
+            <span className="font-semibold">moneeeeeeyyyyyyy</span>! 💰💰 Met
+            some cool folks who were crushing it in coding, got introduced, and
+            became kinda good at it.
+          </p>
+          <p className="">
+            Some of those folks started a company, and I jumped in. Built{" "}
+            <span className="font-semibold">Kroto</span> as a Software
+            Developer, pivoted, and my role became{" "}
+            <span className="font-semibold">Founding Engineer</span>. Fast
+            forward—sold Kroto to{" "}
+            <span className="font-semibold">GrooveHQ</span> in Jan 2025, and
+            here I am! 😎
+          </p>
+          <h2 className="text-2xl font-bold ">Skills & Interests</h2>
+          <ul className="list-disc pl-6">
+            <li>
+              Full-Stack Developer (Next.js, TypeScript, Node.js, AWS(S3), will
+              add dedicated page for this)
+            </li>
+            <li>I play acoustic guitar and like to write songs/poems.</li>
+            <li>Hardcore Pink Floyd fan 🎵✨</li>
+            <li>Will add some pages about my interests</li>
+          </ul>
+        </div>
       </div>
     </section>
   );
